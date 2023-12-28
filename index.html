@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form id="survey-form">
+
+        <div class="form-childs">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" required />
+
+            <label for="age" id="number-label">Age (optional)</label>
+            <input type="number" id="number" min="10" max="99" placeholder="Age" />
+        </div>
+
+        <div class="form-childs">
+            <label for="role">Which option best describes your current role?</label>
+            <select id="dropdown">
+                <option value="" disabled selected>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+        </div>
+<div class="form-childs">
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <div>
+      <input type="radio" value="yes" id="recommend-yes" name="recommend" checked>
+      <label for="recommend-yes">Yes</label>
+  </div>
+  <div>
+      <input type="radio" value="no" id="recommend-no" name="recommend">
+      <label for="recommend-no">No</label>
+  </div>
+</div>
+
+<div class="form-childs">
+  <p>What would you like to see improved?` (Check all that apply)</p>
+
+  <div>
+      <input type="checkbox" value="one">
+      <label for="front-end-projects">Front-end Projects</label>
+  </div>
+
+  <div>
+      <input type="checkbox" value="two">
+      <label for="back-end-projects">Back-end Projects</label>
+  </div>
+
+  <div>
+      <input type="checkbox" value="three">
+      <label for="open-source">Open Source</label>
+  </div>
+</div>
+        <div class="form-childs">
+            <div class="textArea">
+                <p id="addComments">Any comments or suggestions?</p>
+                <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+            </div>
+        </div>
+
+        <div class="form-childs">
+            <button type="submit" id="submit" class="done">Submit</button>
+        </div>
+
+    </form>
+
+    <br><br>
+
+</body>
+</html>
