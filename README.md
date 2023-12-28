@@ -4,7 +4,7 @@ Welcome to my freeCodeCamp Survey Form project! This project is part of the Resp
 
 ## Demo
 
-You can view a live demo of the survey form on [GitHub Pages](https://yourusername.github.io/freeCodeCamp-Survey-Form).
+![Screenshot 2023-12-29 005801](https://github.com/saqibbedar/freeCodeCamp-Survey-Form/assets/124094939/0c70fd8e-8343-40dd-87c8-8819fa4a25b3)
 
 ## How to Use
 
